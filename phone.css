@@ -1,0 +1,86 @@
+/* navigation */
+#navbar {
+    height: 274px;
+}
+
+#navbar ul {
+    display: none;
+}
+
+#mobile_menu {
+    display: block;
+    margin-bottom: 0px;
+}
+
+#mobile_menu ul {
+    padding: 4px 0;
+}
+
+#mobile_menu ul a {
+    display: block;
+    color: white;
+    margin: 1vw 3vw;
+    border: none;
+    text-decoration: none;
+}
+
+#logo {
+    margin: 0 10px;
+}
+
+/* content section */
+#content_hadding {
+    width: 30%;
+    margin-top: 0px;
+    float: left;
+    margin-left: 10px;
+}
+
+#content_material {
+    width: 47%;
+    padding: 2vw;
+    float: right;
+    border-left: solid black;
+    margin-top: 0px;
+}
+
+#login_options {
+    justify-content: space-between;
+}
+
+/* tour section */
+.tour_hadding {
+    font-size: 4vw;
+}
+
+.tourlist {
+    font-size: 3vw;
+}
+
+/* wild tasmania section */
+#wildland {
+    height: 200px;
+}
+
+/* contest challenge section */
+#contest_challenge {
+    height: 205px;
+}
+
+/* commenet section */
+#main_comment_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    width: auto;
+}
+
+#comment_des {
+    margin-top: 0;
+}
+
+.active {
+    background-color: rgb(106, 9, 9);
+    color: black;
+    border-radius: 5px;
+}

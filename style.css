@@ -1,0 +1,281 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo {
+    margin: 10px 34px;
+    font-family: 'Baloo bhai', cursive;
+}
+
+/* Navigation Bar: List Styling */
+#navbar {
+    padding: 26px 16px 0px 16px;
+    justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    height: 300px;
+}
+
+#navbar ul {
+    display: flex;
+    font-family: 'Baloo bhai', cursive;
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a {
+    color: rgb(74, 54, 54);
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover {
+    color: black;
+    border-radius: 5px;
+    background-color: rgb(106, 9, 9);
+}
+
+#navbar::before {
+    content: "";
+    position: absolute;
+    background: url('mountain.jpg') no-repeat center center/cover;
+    height: 642px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.39;
+    height: 300px;
+}
+
+/* mobile menu */
+#mobile_menu {
+    display: none;
+}
+
+#mobile_menu ul {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    text-decoration: none;
+}
+
+#mobile_menu ul a {
+    display: block;
+    color: white;
+    margin: 1vw 3vw;
+    border: 2px solid black;
+    text-decoration: none;
+}
+
+/* content section */
+#content {
+    padding-bottom: 25px;
+}
+
+#content_hadding {
+    width: 30%;
+    margin-top: 0px;
+    float: left;
+    margin-right: 20px;
+    margin-left: 56px;
+
+}
+
+#content_material {
+    width: 47%;
+    padding: 2vw;
+    float: right;
+    border-left: solid black;
+    margin-top: 0px;
+}
+
+#login_options {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.login_option_button {
+    background-color: rgb(106, 9, 9);
+    align-self: center;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+/* tours section */
+.tourbody {
+    background-image: url("tourimg.jpg");
+    background-size: cover;
+}
+
+.tour_hadding {
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.tours {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tour_image {
+    width: 21vw;
+    height: 15vw;
+}
+
+.tourlist {
+    width: 22vw;
+    margin: 2vw;
+    color: white;
+    font-size: 1.3rem;
+}
+
+/* contest challenge section */
+#contest_challenge {
+    text-align: center;
+    color: #185816;
+    background-image: url('contestbg.jpg');
+    background-size: cover;
+    height: 435px;
+    padding: 6vw 10vw;
+    font-weight: bold;
+}
+
+.contest_font1 {
+    font-size: 3vw;
+}
+
+.contest_font {
+    font-size: 2vw;
+}
+
+#contest_challenge_link {
+    border: 3px solid green;
+    background-color: #07ae07;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+}
+
+#contest_challenge_link:hover {
+    color: black;
+    box-shadow: 0 0 10px 0 green inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid green;
+}
+
+/* wild tasmania section */
+#wildland {
+    background-image: url("wildwhale.jpg");
+    height: 500px;
+    border: solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 6vw 10vw;
+    font-size: 2.3vw;
+}
+
+#wildland_hadding {
+    text-align: center;
+}
+
+#wildland_date {
+    font-size: 1.8vw;
+}
+
+#wildland_link {
+    border: 3px solid green;
+    background-color: #07ae07;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 4px;
+    color: white;
+    font-weight: bold;
+}
+
+#wildland_link:hover {
+    color: black;
+    box-shadow: 0 0 10px 0 green inset, 0 0 20px 2px #00d7c3;
+    border: 3px solid green;
+}
+
+/* comment section */
+#main_comment_box {
+    display: flex;
+    justify-content: space-around;
+    width: max-content;
+}
+
+#comment_des {
+    margin: 20px;
+}
+
+#comment_button {
+    padding: 6px 10px;
+    margin-left: 25px;
+    border: solid #6f7868;
+    border-radius: 5px;
+    color: white;
+    background-color: #92988e
+}
+
+#comment_button:hover {
+    color: white;
+    background-color: #6f7868;
+}
+
+/* footer section */
+#footer_section {
+    background-color: #616161;
+    color: white;
+    padding: 2vw;
+    font-family: 'Baloo 2', cursive;
+}
+
+.footer_image {
+    width: 18px;
+    border-radius: 100%;
+}
+
+/* utility classes */
+.flex_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.textdecoration {
+    text-decoration: none;
+}
+
+.active {
+    background-color: rgb(106, 9, 9);
+    color: black;
+    border-radius: 5px;
+}
